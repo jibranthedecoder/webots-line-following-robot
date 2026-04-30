@@ -48,33 +48,12 @@ Viritys tehtiin kokeellisesti:
 
 Paras tulos ei ollut suurin mahdollinen nopeus. Lopullinen valinta oli kompromissi lyhyen kierrosajan, lyhyen ajomatkan ja vakaan käyttäytymisen välillä.
 
-## Repositorion rakenne
-
-```text
-src/
-  line_follow.py
-
-docs/
-  Robotics-viivanseuraaja.pdf
-
-media/
-  Task2_Vid.mp4
-
-screenshots/
-  best-result.png
-```
-
 ## Todisteaineisto
 
-Ohjainkoodi on tässä repositoriossa:
-
-- [`src/line_follow.py`](src/line_follow.py)
-
-Lisää nämä tiedostot GitHubin upload-toiminnolla, jotta repository on täydellinen:
-
-- `docs/Robotics-viivanseuraaja.pdf` — tekninen raportti
-- `media/Task2_Vid.mp4` — Webots-simulaation video
-- `screenshots/best-result.png` — kuvakaappaus parhaasta tuloksesta
+- [Python-ohjain](line_follow.py)
+- [Tekninen PDF-raportti](Robotics-viivanseuraaja.pdf)
+- [Simulaatiovideo](Task2_Vid.mp4)
+- [Parhaan tuloksen kuvakaappaus](best%20possible%20scenario.png)
 
 ## Mitä projekti osoittaa
 
