@@ -78,3 +78,7 @@ The best result was not the highest possible speed. The final choice was a compr
 ## Notes
 
 This repository is used as the evidence package for the portfolio case study. The portfolio page presents the project in a recruiter-friendly format, while this repository keeps the source files, report, simulation video, and screenshot available for review.
+
+## License note
+
+The source code is licensed under the MIT License. Report and media files are included as portfolio evidence and educational demonstration material.
