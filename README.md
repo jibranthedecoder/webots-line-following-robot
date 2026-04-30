@@ -2,9 +2,8 @@
 
 A Webots robotics case study where an e-puck robot follows a line using three ground sensors and a tuned PD controller.
 
-## Portfolio case study
+## Language
 
-- [Portfolio page](https://www.jibranhussain.com/projects/line-following-robot/)
 - [Finnish README](README.fi.md)
 
 ## Project summary
@@ -57,14 +56,14 @@ The tuning was performed experimentally:
 
 The best result was not the highest possible speed. The final choice was a compromise between short lap time, short path length, and stable behavior.
 
-## Evidence files
+## Project files
 
-| Evidence | File |
+| File | Description |
 |---|---|
-| Python controller | [`line_follow.py`](line_follow.py) |
-| Technical report | [`Robotics-viivanseuraaja.pdf`](Robotics-viivanseuraaja.pdf) |
-| Simulation video | [`Task2_Vid.mp4`](Task2_Vid.mp4) |
-| Result screenshot | [`best possible scenario.png`](best%20possible%20scenario.png) |
+| [`line_follow.py`](line_follow.py) | Python controller |
+| [`Robotics-viivanseuraaja.pdf`](Robotics-viivanseuraaja.pdf) | Technical report |
+| [`Task2_Vid.mp4`](Task2_Vid.mp4) | Simulation video |
+| [`best possible scenario.png`](best%20possible%20scenario.png) | Result screenshot |
 
 ## What this project demonstrates
 
@@ -75,10 +74,6 @@ The best result was not the highest possible speed. The final choice was a compr
 - Performance comparison
 - Engineering documentation
 
-## Notes
-
-This repository is used as the evidence package for the portfolio case study. The portfolio page presents the project in a recruiter-friendly format, while this repository keeps the source files, report, simulation video, and screenshot available for review.
-
 ## License note
 
-The source code is licensed under the MIT License. Report and media files are included as portfolio evidence and educational demonstration material.
+The source code is licensed under the MIT License. Reports and media files are included as supporting project documentation and demonstration material.
