@@ -78,3 +78,7 @@ Paras tulos ei ollut suurin mahdollinen nopeus. Lopullinen valinta oli kompromis
 ## Huomio
 
 Tämä repository toimii portfolio-projektin todistepakettina. Portfolio-sivu esittää projektin rekrytoijalle sopivassa muodossa, ja tämä repository sisältää lähdetiedostot, raportin, simulaatiovideon ja tuloskuvan tarkempaa tarkastelua varten.
+
+## Lisenssihuomio
+
+Lähdekoodi on julkaistu MIT-lisenssillä. Raportti ja mediatiedostot ovat mukana portfolio-todisteina ja opetuksellisena demonstraationa.
