@@ -2,9 +2,8 @@
 
 Webots-robotiikan case study, jossa e-puck-robotti seuraa viivaa kolmen pohja-anturin ja viritetyn PD-säätimen avulla.
 
-## Portfolio case study
+## Kieli
 
-- [Portfolio-sivu](https://www.jibranhussain.com/projects/line-following-robot/)
 - [English README](README.md)
 
 ## Projektin yhteenveto
@@ -57,14 +56,14 @@ Viritys tehtiin kokeellisesti:
 
 Paras tulos ei ollut suurin mahdollinen nopeus. Lopullinen valinta oli kompromissi lyhyen kierrosajan, lyhyen ajomatkan ja vakaan käyttäytymisen välillä.
 
-## Todisteaineisto
+## Projektitiedostot
 
-| Todiste | Tiedosto |
+| Tiedosto | Kuvaus |
 |---|---|
-| Python-ohjain | [`line_follow.py`](line_follow.py) |
-| Tekninen raportti | [`Robotics-viivanseuraaja.pdf`](Robotics-viivanseuraaja.pdf) |
-| Simulaatiovideo | [`Task2_Vid.mp4`](Task2_Vid.mp4) |
-| Tuloskuva | [`best possible scenario.png`](best%20possible%20scenario.png) |
+| [`line_follow.py`](line_follow.py) | Python-ohjain |
+| [`Robotics-viivanseuraaja.pdf`](Robotics-viivanseuraaja.pdf) | Tekninen raportti |
+| [`Task2_Vid.mp4`](Task2_Vid.mp4) | Simulaatiovideo |
+| [`best possible scenario.png`](best%20possible%20scenario.png) | Tuloskuva |
 
 ## Mitä projekti osoittaa
 
@@ -75,10 +74,6 @@ Paras tulos ei ollut suurin mahdollinen nopeus. Lopullinen valinta oli kompromis
 - suorituskyvyn vertailu
 - tekninen dokumentointi
 
-## Huomio
-
-Tämä repository toimii portfolio-projektin todistepakettina. Portfolio-sivu esittää projektin rekrytoijalle sopivassa muodossa, ja tämä repository sisältää lähdetiedostot, raportin, simulaatiovideon ja tuloskuvan tarkempaa tarkastelua varten.
-
 ## Lisenssihuomio
 
-Lähdekoodi on julkaistu MIT-lisenssillä. Raportti ja mediatiedostot ovat mukana portfolio-todisteina ja opetuksellisena demonstraationa.
+Lähdekoodi on julkaistu MIT-lisenssillä. Raportit ja mediatiedostot ovat mukana projektin dokumentaationa ja demonstraatiomateriaalina.
