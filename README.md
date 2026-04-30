@@ -48,33 +48,12 @@ The tuning was performed experimentally:
 
 The best result was not the highest speed. The final choice was a compromise between short lap time, short path length, and stable behavior.
 
-## Repository structure
-
-```text
-src/
-  line_follow.py
-
-docs/
-  Robotics-viivanseuraaja.pdf
-
-media/
-  Task2_Vid.mp4
-
-screenshots/
-  best-result.png
-```
-
 ## Evidence files
 
-The controller code is included in this repository:
-
-- [`src/line_follow.py`](src/line_follow.py)
-
-Add these evidence files to complete the repository:
-
-- `docs/Robotics-viivanseuraaja.pdf` — Finnish technical report
-- `media/Task2_Vid.mp4` — Webots simulation video
-- `screenshots/best-result.png` — screenshot of the best simulation/result
+- [Python controller](line_follow.py)
+- [Technical report PDF](Robotics-viivanseuraaja.pdf)
+- [Simulation video](Task2_Vid.mp4)
+- [Best result screenshot](best%20possible%20scenario.png)
 
 ## What this project demonstrates
 
