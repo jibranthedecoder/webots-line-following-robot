@@ -1,10 +1,15 @@
 # Webots-viivanseuraajarobotti
 
-Webots-robotiikkaprojekti, jossa e-puck-robotti seuraa viivaa kolmen pohja-anturin ja viritetyn PD-säätimen avulla.
+Webots-robotiikan case study, jossa e-puck-robotti seuraa viivaa kolmen pohja-anturin ja viritetyn PD-säätimen avulla.
+
+## Portfolio case study
+
+- [Portfolio-sivu](https://www.jibranhussain.com/projects/line-following-robot/)
+- [English README](README.md)
 
 ## Projektin yhteenveto
 
-Tavoitteena oli virittää viivanseuraajan säädin niin, että robotti ajaa radan mahdollisimman nopeasti, mutta ajettu matka ja käyttäytyminen pysyvät hallittuina.
+Tavoitteena oli virittää viivanseuraajan säädin niin, että robotti suorittaa radan mahdollisimman nopeasti, mutta ajettu matka ja käyttäytyminen pysyvät hallittuina.
 
 Lopullinen vakaa viritystulos oli:
 
@@ -25,6 +30,10 @@ Lopullinen vakaa viritystulos oli:
 - Anturit: kolme pohja-anturia
 - Toimilaitteet: vasen ja oikea pyörämoottori
 - Ohjaustapa: PD-säätö ja moottorinopeuden saturaatio
+
+## Insinööriongelma
+
+Viivanseuraajarobotin täytyy reagoida rataan nopeasti ilman, että liike muuttuu epävakaaksi. Liian heikko korjaus tekee robotista hitaan. Liian suuri nopeus tai vahvistus voi aiheuttaa sahaamista, moottorien saturaatiota tai epätasaista viivanseurantaa.
 
 ## Säätöidea
 
@@ -50,10 +59,12 @@ Paras tulos ei ollut suurin mahdollinen nopeus. Lopullinen valinta oli kompromis
 
 ## Todisteaineisto
 
-- [Python-ohjain](line_follow.py)
-- [Tekninen PDF-raportti](Robotics-viivanseuraaja.pdf)
-- [Simulaatiovideo](Task2_Vid.mp4)
-- [Parhaan tuloksen kuvakaappaus](best%20possible%20scenario.png)
+| Todiste | Tiedosto |
+|---|---|
+| Python-ohjain | [`line_follow.py`](line_follow.py) |
+| Tekninen raportti | [`Robotics-viivanseuraaja.pdf`](Robotics-viivanseuraaja.pdf) |
+| Simulaatiovideo | [`Task2_Vid.mp4`](Task2_Vid.mp4) |
+| Tuloskuva | [`best possible scenario.png`](best%20possible%20scenario.png) |
 
 ## Mitä projekti osoittaa
 
@@ -64,6 +75,6 @@ Paras tulos ei ollut suurin mahdollinen nopeus. Lopullinen valinta oli kompromis
 - suorituskyvyn vertailu
 - tekninen dokumentointi
 
-## English version
+## Huomio
 
-English description is available in [`README.md`](README.md).
+Tämä repository toimii portfolio-projektin todistepakettina. Portfolio-sivu esittää projektin rekrytoijalle sopivassa muodossa, ja tämä repository sisältää lähdetiedostot, raportin, simulaatiovideon ja tuloskuvan tarkempaa tarkastelua varten.
